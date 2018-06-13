@@ -1,0 +1,16 @@
+{
+  "name": "express_apis",
+  "version": "1.0.0",
+  "description": "dependencies to make restful apis using node and express and a no sql db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diamond Khanna",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5"
+  }
+}
