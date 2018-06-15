@@ -13,7 +13,8 @@ db.on('error',console.error.bind(console,'MONGODB connection error:'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-routes(app);
+routes.appRouter(app);
+routes.serviceProviderRouter(app);
 
 var server=app.listen(9000,function()
 {
